@@ -57,10 +57,6 @@ while running:
         f.write(id)
         f.close()
         try:
-            if user == '334390930':
-                api.send_direct_message(recipient_id=user, text="lmao ur so gay")
-            elif user == '1585711334003458048':
-                api.send_direct_message(recipient_id=user, text="gay")
             pic = (getattr(obj, '_json'))['entities']['media'][0]['media_url_https']
             determine = is_ryan(pic)
         except:
